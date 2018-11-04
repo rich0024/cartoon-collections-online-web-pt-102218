@@ -1,7 +1,7 @@
 def roll_call_dwarves(arr)# code an argument here
   # Your code here
   dwarves = ["Dopey", "Grumpy", "Bashful"]
-dwarves.map do |names|
+dwarves.each do |names|
     puts names
   end
 end
