@@ -8,14 +8,14 @@ dwarves.each do |name|
 end
 
 
-def summon_captain_planet(arr)# code an argument here
+def summon_captain_planet(array)# code an argument here
   # Your code here
   arr = []
-    i = 0 
-    while i < array.length 
+    i = 0
+    while i < array.length
       arr << array[i].capitalize + "!"
-      i += 1 
-    end 
+      i += 1
+    end
     arr
   end
 
