@@ -1,4 +1,4 @@
-def roll_call_dwarves()# code an argument here
+def roll_call_dwarves(arr)# code an argument here
   # Your code here
   dwarves = ["Dopey", "Grumpy", "Bashful"]
 dwarves.collect do |names|
