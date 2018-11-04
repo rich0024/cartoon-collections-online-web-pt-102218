@@ -12,7 +12,7 @@ def summon_captain_planet(arr)# code an argument here
   # Your code here
   veggies = ["carrot", "cucumber", "pepper"]
   veggies.map! do |veg|
-    return veg.capitalize +'!'
+    puts veg.capitalize +'!'
 end
 end
 
