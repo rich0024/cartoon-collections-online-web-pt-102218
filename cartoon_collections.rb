@@ -15,6 +15,7 @@ def summon_captain_planet(arr)# code an argument here
   veggies.map! do |veg|
     puts veg.capitalizes +'!'
 end
+  veggies
 end
 
 def long_planeteer_calls# code an argument here
