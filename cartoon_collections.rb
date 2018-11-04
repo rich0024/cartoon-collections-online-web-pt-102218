@@ -1,9 +1,10 @@
-def roll_call_dwarves(array)# code an argument here
+def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
   dwarves = ["Dopey", "Grumpy", "Bashful"]
 dwarves.each do |name|
     puts name
   end
+  dwarves
 end
 
 
