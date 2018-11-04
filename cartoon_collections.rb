@@ -10,13 +10,14 @@ end
 
 def summon_captain_planet(arr)# code an argument here
   # Your code here
-  veggies = ["carrot", "cucumber", "pepper"]
-
-  veggies.map do |w|
-    puts w.capitalize + "!"
-end
-  veggies
-end
+  arr = []
+    i = 0 
+    while i < array.length 
+      arr << array[i].capitalize + "!"
+      i += 1 
+    end 
+    arr
+  end
 
 def long_planeteer_calls# code an argument here
   # Your code here
